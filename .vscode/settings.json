@@ -1,0 +1,10 @@
+{
+  "explorer.excludeGitIgnore": true,
+  "files.exclude": {
+    ".*":true,
+    "_redirects": true,
+    "postcss.config.js":true,
+    "tailwind.config.js":true,
+    "scripts": true
+  }
+}
