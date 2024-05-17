@@ -1,7 +1,7 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14">
+    <section class="section pt-20 pb-0" style="background: linear-gradient(0deg, #E8FBFF -3.73%, #D2ECFF 103.44%);">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-7 md:col-9 mb-8 text-center">
@@ -36,7 +36,7 @@
 
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
-    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+    <section class="section-sm">
       <div class="container">
         <div class="row items-center justify-between">
           <div
@@ -81,7 +81,7 @@
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
-      <section class="section">
+      <section class="section" style="background-color:#F6F7F2">
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
@@ -98,8 +98,8 @@
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
-                        class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
+                        class="bg-white  rounded-lg px-7 py-10">
+                        <div class="text-dark ">
                           <svg
                             width="33"
                             height="20"
@@ -115,14 +115,14 @@
                           {{ .content | markdownify }}
                         </blockquote>
                         <div class="mt-11 flex items-center">
-                          <div class="text-dark dark:text-white">
+                          <div class="text-dark ">
                             {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
                           </div>
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
                               {{ .name }}
                             </h3>
-                            <p class="text-dark dark:text-white">
+                            <p class="text-dark ">
                               {{ .designation | markdownify }}
                             </p>
                           </div>

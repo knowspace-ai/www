@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Senior Care Solution for Assisted Living Facilities"
-  content: "Knowspace is the shit."
+  title: "The Ultimate Senior Care Solution for Assisted Living Facilities and Individual Caregivers"
+  content: "Knowspace aims to become a household name in senior care, providing American families the best age-in-place experience for their aging loved ones. Through our state-of-the-art IoT infrastructure and mobile geolocation services, we ensure safety and peace of mind."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Try It Now"
-    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    label: "Schedule a demo"
+    link: "#"
 
 # Features
 features:
@@ -19,8 +19,8 @@ features:
       - "**Timestamp Alerts** if key locations are breached (such as exits from building, entry into a restricted area or even other residents’ apartments, if rummaging is an issue)"
       - "**Critical Alerts** upon leaving a safe perimeter around the building or campus."
     button:
-      enable: false
-      label: "Get Started Now"
+      enable: true
+      label: "Schedule a demo"
       link: "#"
 
   - title: "Discover the Key Features Of Knowspace"
@@ -32,8 +32,8 @@ features:
       - "Tried and failed to harness the _find my phone_ features of smart phones, which help but rely on compliance by the resident"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Schedule a demo"
+      link: "#"
 
   - title: "The Top Reasons to Choose Knowspace for Your Assisted Living Facility"
     image: "/images/service-3.png"
@@ -44,7 +44,7 @@ features:
       - "Preemptively manage cognitive decline"
       - "Built on cutting-edge technology to keep your facility compliant with the latest standards."
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Schedule a demo"
+      link: "#"
 ---

@@ -1,10 +1,9 @@
 ############# English navigation ##############
 
 # main menu
-# [[main]]
-# name = "Home"
-# pageRef = "/"
-# weight = 1
+[[main]]
+name = "Knowing is Caring"
+weight = 1
 
 # [[main]]
 # name = "About"

@@ -24,15 +24,15 @@ a {
 
 /* Button Styles */
 .btn {
-    @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition;
+    @apply inline-block border-green-500 rounded py-2 font-semibold capitalize transition;
 }
 
 .btn-sm {
-    @apply rounded-sm px-4 py-1.5 text-sm;
+    @apply rounded-sm border-green-500 px-4 py-1.5 text-sm;
 }
 
 .btn-primary {
-    @apply border-primary bg-primary text-white dark:bg-darkmode-primary; /* Remove dark:border-darkmode-primary and dark:text-dark */
+    @apply bg-primary text-white ; /* Remove  and  */
     background-color: #16B370; /* Set main color */
     transition: background-color 0.3s ease; /* Add transition for background color */
 }
@@ -42,7 +42,7 @@ a {
 }
 
 .btn-outline-primary {
-    @apply border-dark text-dark hover:bg-dark dark:hover:text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+    @apply border-dark text-dark hover:bg-dark  bg-transparent hover:text-white   ;
     border-color: #16B370; /* Set main color for border */
     color: #16B370;       /* Set main color for text */
     transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background and text */
@@ -53,3 +53,8 @@ a {
     color: #fff;              /* Set white for hover text */
 }
 
+/* Beige Section Styles */
+.beige-section {
+    background-color: #dbdbc1; /* Light beige color */
+    // Add any other desired styles (e.g., padding, margin, etc.)
+  }
