@@ -1,1 +1,55 @@
 // Add your own custom styles here
+
+/* Import Inter Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Override Font Family */
+body {
+    font-family: 'Inter', sans-serif;  /* Apply Inter to all text elements */
+}
+
+/* Override Heading Colors */
+h1, h2, h3, h4, h5, h6 {
+    color: #026AA2;  /* Change heading color to the specified blue */
+}
+
+/* Override Other Text Colors (Paragraphs, etc.) */
+p, li, a, span, div, blockquote { 
+    color: #424242; /* Change other text color to dark gray */
+}
+
+a {
+    color: #005288; /* Darker blue for links */
+}
+
+/* Button Styles */
+.btn {
+    @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition;
+}
+
+.btn-sm {
+    @apply rounded-sm px-4 py-1.5 text-sm;
+}
+
+.btn-primary {
+    @apply border-primary bg-primary text-white dark:bg-darkmode-primary; /* Remove dark:border-darkmode-primary and dark:text-dark */
+    background-color: #16B370; /* Set main color */
+    transition: background-color 0.3s ease; /* Add transition for background color */
+}
+
+.btn-primary:hover {
+    background-color: #0F9B5F; /* Set hover color */
+}
+
+.btn-outline-primary {
+    @apply border-dark text-dark hover:bg-dark dark:hover:text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+    border-color: #16B370; /* Set main color for border */
+    color: #16B370;       /* Set main color for text */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background and text */
+}
+
+.btn-outline-primary:hover {
+    background-color: #16B370; /* Set main color for hover background */
+    color: #fff;              /* Set white for hover text */
+}
+
