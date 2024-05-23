@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Senior Care Solution for Assisted Living Facilities and Individual Caregivers"
-  content: "Knowspace aims to become a household name in senior care, providing American families the best age-in-place experience for their aging loved ones. Through our state-of-the-art IoT infrastructure and mobile geolocation services, we ensure safety and peace of mind."
+  title: "The Senior Care Solution for Assisted Living Facilities and Individual Caregivers"
+  content: "Knowing is caring"
   image: "/images/banner.png"
   button:
     enable: true
@@ -13,11 +13,11 @@ banner:
 features:
   - title: "What is Knowspace?"
     image: "/images/service-1.png"
-    content: "Developed by people who have dealt with these issues both personally and at the facility level and know the emotional “gut punch” of discovering an at-risk resident or family member is missing."
+    content: "A customizable system developed by people who have experienced the \"gut punch\" of discovering an at-risk resident or family member missing."
     bulletpoints:
-      - "**Resident Identification** (within and upon exiting the building)"
-      - "**Timestamp Alerts** if key locations are breached (such as exits from building, entry into a restricted area or even other residents’ apartments, if rummaging is an issue)"
-      - "**Critical Alerts** upon leaving a safe perimeter around the building or campus."
+      - "**Resident Identification** (inside and upon exiting the building)"
+      - "**Timestamp Alerts** entry into a restricted area or even other residents' apartments."
+      - "**Critical Alerts** upon unauthorized exit or leaving a safe perimeter around the building."
     button:
       enable: true
       label: "Schedule a demo"
@@ -25,11 +25,11 @@ features:
 
   - title: "Discover the Key Features Of Knowspace"
     image: "/images/service-2.png"
-    content: "Elopement is one of the scariest and most disruptive events which happen in Assisted Living Facilities.  Risks to residents, staff and the facility can be catastrophic. Residents, even if they do not leave the building, are subject to falls, failure to maintain medication and other physical and mental illnesses."
+    content: "Elopement is one of the scariest and most disruptive events which can happen in an Assisted Living Facility.  Risks to residents, staff and the facility can be catastrophic and expensive."
     bulletpoints:
-      - "It is difficult to address daily Resident needs, how can you possibly consider “potential risk” of elopement in a meaningful way."
-      - "Avoid expensive campus wide systems with cameras, sensors, and alerts which you cannot afford."
-      - "Tried and failed to harness the _find my phone_ features of smart phones, which help but rely on compliance by the resident"
+      - "Knowspace addresses daily Resident needs while limiting the \"potential risk\" of elopement in a quantifiable way."
+      - "Knowspace uses the latest, reliable technology avoiding expensive campus wide systems with cameras and alerts."
+      - "Knowspace offers multiple device options that are used in everyday life, creating a proactive approach to elopement and predictive resident care."
     button:
       enable: true
       label: "Schedule a demo"
@@ -41,8 +41,9 @@ features:
     bulletpoints:
       - "Know where people are and where they're not"
       - "Track and predict patterns of behavior over time"
-      - "Preemptively manage cognitive decline"
-      - "Built on cutting-edge technology to keep your facility compliant with the latest standards."
+      - "Manage residents while creating staff accountability"
+      - "Built on cutting-edge technology to keep your facility compliant with the latest standards"
+      - "Easy installation with the most economic system available"
     button:
       enable: true
       label: "Schedule a demo"

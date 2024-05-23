@@ -62,8 +62,8 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Knowspace: because knowing is caring"
+keywords = ["Knowspace", "senior care", "assisted living", "resident monitoring", "elopement prevention", "senior safety", "caregiver tools", "assisted living technology", "senior care solutions", "senior monitoring system"]
+description = "Discover Knowspace, the customizable senior care solution designed to enhance safety in Assisted Living Facilities and for individual caregivers. Schedule a demo today!"
 author = "Knowspace"
 image = "images/og-image.png"
 
