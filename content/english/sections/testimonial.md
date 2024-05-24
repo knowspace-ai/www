@@ -8,7 +8,7 @@ testimonials:
   - name: "Marvin McKinney"
     designation: "ALF Manager"
     avatar: "/images/avatar-sm.png"
-    content: "Best system ever.  Gives us the visibility we need at a price point we can afford.  No senior left behind!  We need more cowbell though.  Yes, definitely more cowbell."
+    content: "Best system ever. Seamless installation with simple staff onboarding. Gives us the visibility we need at a price point we can afford."
 
   - name: "Jordan Smith"
     designation: "Senior Care Specialist"
@@ -18,12 +18,12 @@ testimonials:
   - name: "Rupert Tiergedaal"
     designation: "Senior Citizen"
     avatar: "/images/avatar-sm.png"
-    content: "What did you say?  You want me to bend my knees back?  Oh, oh, you want me to give you some feedback!  Well, it's so comfortable I forget I'm even wearing it."
+    content: "I realize I'm getting forgetful and this worries my family. The Knowspace system allows me freedom of movement and gives my family peace of mind."
 
   - name: "Jane Worthington"
     designation: "Senior Care Consultant"
     avatar: "/images/avatar-sm.png"
-    content: "This stuff works, it really does.  I recommend it to all my clients.  We're even using it at home right now.  Wait a second, there's an alert here ... oh, i have to go!"
+    content: "Inhome care is demanding. With Knowspace my staff can document care issues, notify family, and create accountabilty from one interphase. Well done Knowspace!"
 
 # don't create a separate page
 _build:
