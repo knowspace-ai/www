@@ -1,14 +1,26 @@
 ############# English navigation ##############
 
 # main menu
-# [[main]]
-# name = "Knowing is Caring"
-# weight = 1
+[[main]]
+name = "Learn More"
+weight = 1
 
-# [[main]]
-# name = "About"
-# pageRef = "/about"
-# weight = 2
+[[main]]
+parent = "Learn More"
+name = "How does it work?"
+pageRef = "/how-does-it-work"
+weight = 1
+
+[[main]]
+parent = "Learn More"
+name = "Devices"
+pageRef = "/devices"
+weight = 5
+
+[[main]]
+name = "Team"
+pageRef = "/team"
+weight = 2
 
 # [[main]]
 # name = "Elements"
