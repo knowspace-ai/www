@@ -3,7 +3,7 @@
 banner:
   title: "A REAL Senior Care Solution for Assisted Living Facilities."
   content: "Knowing is caring "
-  image: "/images/banner.png"
+  image: "/images/hero.png"
   button:
     enable: true
     label: "Schedule a demo"
